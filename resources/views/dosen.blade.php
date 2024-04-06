@@ -14,7 +14,7 @@
             <th scope="col">Mata Kuliah</th>
             <th scope="col">Fakultas</th>
             <th scope="col">NIDN</th>
-            <th scope="col">nom</th>
+            <th scope="col">Aksi</th>
           </tr>
         </thead>
         <tbody>
