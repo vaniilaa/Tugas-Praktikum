@@ -11,7 +11,7 @@ class Dosen extends Model
     protected $table = 'dosen';
     protected $primaryKey = 'id_dosen';
 
-    public function nip(){
-        return $this->hasOne(nip::class, 'id_dosen');
+    public function nidn(){
+        return $this->hasOne(nidn::class, 'id_dosen');
     }
 }

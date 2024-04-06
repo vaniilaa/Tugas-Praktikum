@@ -23,7 +23,8 @@
             <th scope="row">{{$dsn->id_dosen}}</th>
             <td>{{$dsn->nama}}</td>
             <td>{{$dsn->matkul}}</td>
-            <td>{{$dsn->nip->nip}}</td>
+            <td>{{$dsn->fakultas}}</td>
+            <td>{{$dsn->nidn->nomor_induk}}</td>
             <td>
                 <button type="button" class="btn btn-primary">Update</button>
                 <button type="button" class="btn btn-danger">Hapus</button>
