@@ -11,8 +11,9 @@
           <tr>
             <th scope="col">ID</th>
             <th scope="col">Nama</th>
-            <th scope="col">NIDN</th>
             <th scope="col">Mata Kuliah</th>
+            <th scope="col">Fakultas</th>
+            <th scope="col">NIDN</th>
             <th scope="col">Aksi</th>
           </tr>
         </thead>
@@ -21,8 +22,8 @@
           <tr>
             <th scope="row">{{$dsn->id_dosen}}</th>
             <td>{{$dsn->nama}}</td>
-            <td>{{$dsn->nidn}}</td>
             <td>{{$dsn->matkul}}</td>
+            <td>{{$dsn->nip->nip}}</td>
             <td>
                 <button type="button" class="btn btn-primary">Update</button>
                 <button type="button" class="btn btn-danger">Hapus</button>
