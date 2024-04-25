@@ -5,6 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Models\Dosen;
 
+
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Dosen>
  */
@@ -22,6 +23,7 @@ class DosenFactory extends Factory
             'nama' => $this->faker->name(),
             'fakultas' => $this->faker->sentence(),
             'matkul' => $this->faker->sentence()
+
         ];
     }
 }
