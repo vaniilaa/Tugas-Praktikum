@@ -9,7 +9,13 @@
         <table class="table">
             <thead>
               <tr>
-                
+                <th scope="col">ID</th>
+                <th scope="col">Nama</th>
+                <th scope="col">NIM</th>
+                <th scope="col">Jurusan</th>
+                <th scope="col">Alamat</th>
+                <th scope="col">KTM</th>
+                <th scope="col">Aksi</th>
               </tr>
             </thead>
             <tbody>
